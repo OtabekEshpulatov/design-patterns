@@ -18,10 +18,10 @@ public class EnemyShipTester {
 
         EnemyShipFactory shipFactory = new EnemyShipFactory();
         Scanner scanner = new Scanner(System.in);
+        EnemyShip enemyShip;
 
 
         while ( true ) {
-            EnemyShip enemyShip;
             System.out.println("What type of ship ( U / R / B)");
 
             if ( scanner.hasNextLine() ) {
